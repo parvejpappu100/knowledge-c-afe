@@ -23,6 +23,11 @@ const Question = () => {
                 <h2 className='my-3 text-3xl font-semibold'> <FontAwesomeIcon icon={faArrowAltCircleRight} /> How does useState work?</h2>
                 <p><FontAwesomeIcon icon={faEquals} /> <strong>useState :</strong> useState is React Hook that allows you to add state to a functional component. It returns an array with two values: the current state and a function to update it. The Hook takes an initial state value as an argument and returns an updated state value whenever the setter function is called.</p>
             </section>
+            {/* Fourth Question */}
+            <section className='bg-gray-200 p-4 rounded-3 my-3 rounded-3xl mx-2'>
+                <h2 className='my-3 text-3xl font-semibold'> <FontAwesomeIcon icon={faArrowAltCircleRight} /> How does react work?</h2>
+                <p><FontAwesomeIcon icon={faEquals} /> <strong>React :</strong> ReactJS divides the UI into isolated reusable pieces of code known as components. React components work similarly to JavaScript functions as they accept arbitrary inputs called properties or props. It's possible to have as many components as necessary without cluttering your code.</p>
+            </section>
         </div>
     );
 };
