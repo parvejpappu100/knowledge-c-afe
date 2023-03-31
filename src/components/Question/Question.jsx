@@ -4,7 +4,7 @@ import { faArrowAltCircleRight , faEquals } from '@fortawesome/free-solid-svg-ic
 
 const Question = () => {
     return (
-        <div className='lg:container mx-auto my-7'>
+        <div className='lg:container mx-auto my-7 grid grid-cols-1 md:grid-cols-2'>
             {/* first question */}
             <section className='bg-gray-200 p-4 rounded-3 my-3 rounded-3xl mx-2'>
                 <h2 className='my-3 text-3xl font-semibold'> <FontAwesomeIcon icon={faArrowAltCircleRight} /> What is the difference between props and state?</h2>

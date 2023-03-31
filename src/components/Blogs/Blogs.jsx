@@ -36,9 +36,7 @@ const Blogs = () => {
             </div>
             <div  className='sticky top-0'>
                 <Count blogInfo = {blogInfo}></Count>
-                {
-                    bookmark.map(blog => <Bookmark blog = {blog} key={blog.id}></Bookmark>)
-                }
+                <Bookmark bookmark = {bookmark}></Bookmark>
             </div>
         </div>
     );

@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "index":0,
         "userName": "Mr. Alom",
         "userImage": "https://img.freepik.com/premium-vector/business-man-face-portrait-icon_48369-5527.jpg?w=826",
         "published_in": "March 14 , 2023",
@@ -10,6 +11,7 @@
     },
     {
         "id": 2,
+        "index":1,
         "userName": "Mr. Bosir",
         "userImage": "https://img.freepik.com/premium-vector/people-vector_53876-25586.jpg?w=826",
         "published_in": "April 20 , 2022",
@@ -19,6 +21,7 @@
     },
     {
         "id": 3,
+        "index":2,
         "userName": "Mr. Solaiman",
         "userImage": "https://img.freepik.com/premium-vector/avatar-portrait-young-caucasian-woman-round-frame-vector-cartoon-flat-illustration_551425-22.jpg?w=826",
         "published_in": "January 14 , 2023",
@@ -28,6 +31,7 @@
     },
     {
         "id": 4,
+        "index":3,
         "userName": "Mr. Shakib",
         "userImage": "https://img.freepik.com/premium-vector/avatar-portrait-kid-caucasian-boy-round-frame-vector-illustration-cartoon-flat-style_551425-43.jpg?w=826",
         "published_in": "March 20 , 2023",
