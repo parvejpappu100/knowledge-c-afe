@@ -1,5 +1,5 @@
 import React from 'react';
-import BlogName from '../../BlogName/BlogName';
+import BlogName from '../BlogName/BlogName';
 
 const Bookmark = ({bookmark}) => {
     return (
