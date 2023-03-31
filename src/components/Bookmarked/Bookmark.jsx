@@ -11,7 +11,7 @@ const Bookmark = ({bookmark}) => {
                 <h1 className='text-2xl text-blue-500 font-semibold'>Spent time on read : {totalReadTime} minute</h1>
             </div>
             <div>
-
+                
             </div>
         </div>
     );
