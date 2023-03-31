@@ -1,18 +1,25 @@
 import React, { useEffect, useState } from 'react';
 import Blog from '../Blog/Blog';
-import Bookmark from '../Bookmarked/Bookmark';
+import Bookmark from '../Bookmark/Bookmark';
+import Count from '../Count/Count';
 
 const Blogs = () => {
     const [blogs , setBlogs] = useState([]);
-    const [bookmark , setBookmark] = useState([]);
+    const [blogInfo , setBlogInfo] = useState([]);
     useEffect( () => {
         fetch('blogs.json')
         .then(res => res.json())
         .then(data => setBlogs(data))
     } , [])
 
-    const handleCountReadTime = (time) => {
-        setBookmark([...bookmark , time]);
+    const handleCountReadTime = (blog) => {
+        setBlogInfo([...blogInfo , blog]);
+    }
+
+    const [bookmark , setBookmark] = useState([]);
+
+    const handleBookmark = (blog) => {
+        setBookmark([...bookmark , blog]);
     }
 
     return (
@@ -23,11 +30,15 @@ const Blogs = () => {
                     blog = {blog}
                      key = {blog.id}
                      handleCountReadTime = {handleCountReadTime}
+                     handleBookmark = {handleBookmark}
                      ></Blog>)
             }
             </div>
             <div  className='sticky top-0'>
-                <Bookmark bookmark = {bookmark}></Bookmark>
+                <Count blogInfo = {blogInfo}></Count>
+                {
+                    bookmark.map(blog => <Bookmark blog = {blog} key={blog.id}></Bookmark>)
+                }
             </div>
         </div>
     );
