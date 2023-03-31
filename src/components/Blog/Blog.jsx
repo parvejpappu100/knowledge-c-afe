@@ -4,6 +4,7 @@ import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
 const Blog = (props) => {
     const { image , userName , userImage , published_in , blogName , time} = props.blog;
+    const handleCountReadTime = props.handleCountReadTime;
     return (
         <div className='mb-5 shadow-lg p-3 rounded-lg'>
            <div>
@@ -24,8 +25,8 @@ const Blog = (props) => {
                     </div>
                 </div>
                 <h3 className='text-3xl font-bold mb-4'>{blogName}</h3>
-                <button className='my-6 text-blue-600 underline underline-offset-4 font-bold'>
-                Mark as read
+                <button onClick={() => handleCountReadTime(props.blog)} className='my-6 text-blue-600 underline underline-offset-4 font-bold'>
+                    Mark as read
                 </button>
            </div>
         </div>

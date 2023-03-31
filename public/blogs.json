@@ -4,7 +4,7 @@
         "userName": "Mr. Alom",
         "userImage": "https://img.freepik.com/premium-vector/business-man-face-portrait-icon_48369-5527.jpg?w=826",
         "published_in": "March 14 , 2023",
-        "time": "05",
+        "time": 5,
         "blogName": "How to get your first job as a self-taught programmer",
         "image": "https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?w=1380&t=st=1680249808~exp=1680250408~hmac=e90a46b280fb5fbfb642507cf3cd29b6d45d1fe77067286d80d8d9f7e421cf87"
     },
@@ -13,7 +13,7 @@
         "userName": "Mr. Bosir",
         "userImage": "https://img.freepik.com/premium-vector/people-vector_53876-25586.jpg?w=826",
         "published_in": "April 20 , 2022",
-        "time": "07",
+        "time": 7,
         "blogName": "How to get your first job as a self-taught programmer",
         "image": "https://img.freepik.com/free-vector/data-science-programming_39422-1055.jpg?w=1380&t=st=1680251594~exp=1680252194~hmac=4dd55d2f9c337746ba6ac430dc5d8dfcb3ad6e181446550f94beaf44c6bc354e"
     },
@@ -22,7 +22,7 @@
         "userName": "Mr. Solaiman",
         "userImage": "https://img.freepik.com/premium-vector/avatar-portrait-young-caucasian-woman-round-frame-vector-cartoon-flat-illustration_551425-22.jpg?w=826",
         "published_in": "January 14 , 2023",
-        "time": "04",
+        "time": 4,
         "blogName": "How to get your first job as a self-taught programmer",
         "image": "https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=1380&t=st=1680249871~exp=1680250471~hmac=c16cf4eadded27b21983ba6d67ba0dcbd4dbe11109fea50532b7afc17be02e7c"
     },
@@ -31,7 +31,7 @@
         "userName": "Mr. Shakib",
         "userImage": "https://img.freepik.com/premium-vector/avatar-portrait-kid-caucasian-boy-round-frame-vector-illustration-cartoon-flat-style_551425-43.jpg?w=826",
         "published_in": "March 20 , 2023",
-        "time": "012",
+        "time": 12,
         "blogName": "How to get your first job as a self-taught programmer",
         "image": "https://img.freepik.com/free-vector/robot-human_53876-90440.jpg?w=1380&t=st=1680249901~exp=1680250501~hmac=b29442ef8b5590f6cbdd0a410ab4085efb464aecc67d2bea5a98b703f9b629de"
     }
