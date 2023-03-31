@@ -6,6 +6,7 @@ const Blog = (props) => {
     const { image , userName , userImage , published_in , blogName , time} = props.blog;
     const handleCountReadTime = props.handleCountReadTime;
     const handleBookmark = props.handleBookmark;
+
     return (
         <div className='mb-5 shadow-lg p-3 rounded-lg'>
            <div>
