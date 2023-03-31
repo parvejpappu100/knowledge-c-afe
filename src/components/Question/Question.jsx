@@ -18,6 +18,11 @@ const Question = () => {
                 <p><FontAwesomeIcon icon={faEquals} /> <strong>Handling Events :</strong> We can use useEffect to attach event listeners to the document or window. </p>
                 <p><FontAwesomeIcon icon={faEquals} /> <strong>Animations and transitions:</strong> We can use useEffect to trigger animations or transitions based on the state of our component.</p>
             </section>
+            {/* Third Question */}
+            <section className='bg-gray-200 p-4 rounded-3 my-3 rounded-3xl mx-2'>
+                <h2 className='my-3 text-3xl font-semibold'> <FontAwesomeIcon icon={faArrowAltCircleRight} /> How does useState work?</h2>
+                <p><FontAwesomeIcon icon={faEquals} /> <strong>useState :</strong> useState is React Hook that allows you to add state to a functional component. It returns an array with two values: the current state and a function to update it. The Hook takes an initial state value as an argument and returns an updated state value whenever the setter function is called.</p>
+            </section>
         </div>
     );
 };
