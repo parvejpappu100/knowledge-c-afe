@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import Blog from '../Blog/Blog';
 import Bookmark from '../Bookmark/Bookmark';
 import Count from '../Count/Count';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Blogs = () => {
     const [blogs , setBlogs] = useState([]);
@@ -19,6 +21,11 @@ const Blogs = () => {
     const [bookmark , setBookmark] = useState([]);
 
     const handleBookmark = (blog) => {
+        const exits = bookmark.find(book => book.id == blog.id)
+        if(exits){
+            toast.warning("This blog is already exits ")
+            return;
+        }
         setBookmark([...bookmark , blog]);
     }
 
